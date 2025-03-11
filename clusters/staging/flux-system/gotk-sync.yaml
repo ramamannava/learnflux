@@ -33,7 +33,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./clusters/staging/my-app
+  path: ../apps/base/my-app
   prune: true
   sourceRef:
     kind: GitRepository
