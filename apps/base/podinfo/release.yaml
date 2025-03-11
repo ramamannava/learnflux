@@ -25,3 +25,7 @@ spec:
     ingress:
       enabled: true
       className: nginx
+    service:
+      type: NodePort
+      port: 80
+      targetPort: 9898
